@@ -1,1 +1,0 @@
-You must copy the samples from this folder, or change the paths
