@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>liveconfig</title>
+    <parser>
+        <target>phpdocs/output</target>
+        <encoding>utf-8</encoding>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+    </parser>
+    <transformer>
+        <target>phpdocs/docs</target>
+    </transformer>
+    <files>
+        <directory>src/*</directory>
+        <ignore>sample/*</ignore>
+        <ignore>build/*</ignore>
+        <ignore>src/config.php</ignore>
+        <ignore>UnitTest/*</ignore>
+    </files>
+</phpdoc>
